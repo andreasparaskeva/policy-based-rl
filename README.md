@@ -1,3 +1,6 @@
+# About
+This repository, contains various algorithmic approaches revolving around policy-based methods to solve Temporal Difference problems. These include the traditional REINFORCE approach, actor-critic method with adaptations such as bootstrapping and baseline subtraction, as well as Covariance Matrix Adapatation-Evoltionary Strategy (CMA-ES) as an optimization policy. To analyze the effect of exploration strategies, entropy regularization is also implemented. The aforementioned are applied on two different environments, [Cart Pole](https://www.gymlibrary.dev/environments/classic_control/cart_pole/) and [Lunar Lander](https://www.gymlibrary.dev/environments/box2d/lunar_lander/?highlight=lunar).
+
 ## Policy-based RL
 
 With the following command and parameters, it is possible to run the tuned models of policy-based RL:
